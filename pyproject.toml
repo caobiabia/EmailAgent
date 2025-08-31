@@ -1,0 +1,18 @@
+[project]
+name = "LetterAgent"
+version = "0.1.0"
+description = "A project to manage letters."
+dependencies = [
+    "python-dotenv",
+    "langchain",
+    "langchain-openai>=0.3.29",
+    "pandas>=2.3.1",
+    "yagmail>=0.15.293",
+    "loguru>=0.7.3",
+    "langchain-zhipuai>=0.0.1",
+    "zhipuai>=2.1.5.20250801",
+    "crawl4ai>=0.7.4",
+    "pytest>=8.4.1",
+]
+
+[tool.uv]
